@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Sample Job</string>
+    <string name="second_activity">Second Activity</string>
+    <string name="enter_number">Please enter a Number</string>
+    <string name="save">Save</string>
+    <string name="last">Last</string>
+    <string name="time">Time</string>
+    <string name="back">back</string>
+    <string name="show_notification">Show Notification</string>
+    <string name="do_planned_work">Do your planned work</string>
+    <string name="empty_number_input">Please enter a Number</string>
+    <string name="number_save_success">Number Saved Successfully</string>
+    <string name="last_saved_number">Last Saved Number:</string>
+    <string name="error_no_record_found">No Last Saved Record Present</string>
+    <string name="invalid_time">Invalid Time, Please select future time</string>
+    <string name="planned_work">Planned Work</string>
+</resources>
