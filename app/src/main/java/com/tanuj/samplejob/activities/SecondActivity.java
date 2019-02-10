@@ -41,8 +41,6 @@ public class SecondActivity extends AppCompatActivity implements SecondView, Tim
     Button notificationTimeBtn;
     @BindView(R.id.back_btn)
     Button backBtn;
-    @BindView(R.id.all_btn)
-    Button allBtn;
 
     private SecondPresenter presenter;
 
@@ -99,11 +97,6 @@ public class SecondActivity extends AppCompatActivity implements SecondView, Tim
 
         TimePickerDialog timePickerDialog = new TimePickerDialog(this, this, hour, minute, false);
         timePickerDialog.show();
-    }
-
-    @OnClick(R.id.all_btn)
-    public void onViewClicked() {
-        presenter.getAllData();
     }
 
     @Override

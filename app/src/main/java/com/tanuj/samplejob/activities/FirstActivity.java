@@ -23,6 +23,7 @@ public class FirstActivity extends AppCompatActivity {
 
     private static final String TAG = FirstActivity.class.getSimpleName();
     public static final String COMING_FROM_NOTIFICATION = "coming_from_notification";
+    SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
 
     @BindView(R.id.btn_second_activity)
     Button btnSecondActivity;
@@ -42,8 +43,6 @@ public class FirstActivity extends AppCompatActivity {
         chronometer.setOnChronometerTickListener(new Chronometer.OnChronometerTickListener() {
             @Override
             public void onChronometerTick(Chronometer chronometer) {
-
-                SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
                 Date today = new Date();
                 String result = formatter.format(today);
                 chronometer.setText(result);

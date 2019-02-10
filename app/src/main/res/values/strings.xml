@@ -2,9 +2,9 @@
     <string name="app_name">Sample Job</string>
     <string name="second_activity">Second Activity</string>
     <string name="enter_number">Please enter a Number</string>
-    <string name="save">Save</string>
-    <string name="last">Last</string>
-    <string name="time">Time</string>
+    <string name="save_number">Save Number</string>
+    <string name="last">Last Saved Number</string>
+    <string name="next_notification_time">Next Notification Time</string>
     <string name="back">back</string>
     <string name="show_notification">Show Notification</string>
     <string name="do_planned_work">Do your planned work</string>

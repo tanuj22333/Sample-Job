@@ -19,32 +19,26 @@
 
     <Button
         android:id="@+id/save_btn"
-        android:text="@string/save"
-        android:layout_width="wrap_content"
+        android:text="@string/save_number"
+        android:layout_width="200dp"
         android:layout_height="wrap_content" />
 
     <Button
         android:id="@+id/last_saved_btn"
         android:text="@string/last"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <Button
-        android:id="@+id/all_btn"
-        android:text="All"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content" />
 
     <Button
         android:id="@+id/notification_time_btn"
-        android:text="@string/time"
-        android:layout_width="wrap_content"
+        android:text="@string/next_notification_time"
+        android:layout_width="200dp"
         android:layout_height="wrap_content" />
 
     <Button
         android:id="@+id/back_btn"
         android:text="@string/back"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content" />
 
 </LinearLayout>
